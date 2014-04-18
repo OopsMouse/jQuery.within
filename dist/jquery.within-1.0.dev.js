@@ -4,7 +4,7 @@
  * @fileoverview 画像を内接／外接リサイズして正方形に収めるjQueryプラグイン
  * @version 1.0
  * @requires jQuery
- * @license Code licensed under MIT
+ * @license Code licensed under MIT:https://github.com/linlymatsumura/jQuery.within/blob/master/LICENSE.md
  * @author LNLY(@linlymatsumura)
  */
 
