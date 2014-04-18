@@ -1,0 +1,38 @@
+/* Copyright 2014 Linly Matsumura. All Rights Reserved. */
+
+/**
+ * @fileoverview common styles for doc
+ * @version 1.0
+ * @author LNLY(@linlymatsumura)
+ */
+
+.mb-non{
+	margin-bottom: 0;
+}
+.mb-xs{
+	margin-bottom: 5px;
+}
+.mb-sm{
+	margin-bottom: 15px;
+}
+.mb-md{
+	margin-bottom: 30px;
+}
+.mb-lg{
+	margin-bottom: 45px;
+}
+.mb-xl{
+	margin-bottom: 70px;
+}
+
+.doc-header{
+	padding-top: 20px;
+	background-color: #222;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.doc-header h1{
+	color: #fff;
+}

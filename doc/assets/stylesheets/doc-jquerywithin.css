@@ -1,0 +1,10 @@
+/* Copyright 2014 Linly Matsumura. All Rights Reserved. */
+
+/**
+ * @fileoverview individual styles for doc of jQuery within
+ * @version 1.0
+ * @author LNLY(@linlymatsumura)
+ */
+.doc-header{
+	background-image: url(../images/bg_jumbotron.jpg);
+}
