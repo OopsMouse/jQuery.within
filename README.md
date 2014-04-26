@@ -1,21 +1,21 @@
 # jQuery.within
-======================
+
 Resize the image set by `<img>` element to within square area, while maintaining the aspect ratio.  
 Corresponding to the image of both portrait and landscape.
 
-Inscribed resize
+## Inscribed resize
 ------
 Adjusted to the longer sides of the vertical or horizontal in the "inscribed resize", the entire image is displayed in the area, the missing parts are supplemented with the background color.
 
-Circumscribed resize
+## Circumscribed resize
 ------
 Adjusted to the shorter of the vertical or horizontal in the "circumscribed resize", in which the image is displayed on the entire area, the part that stick out are omitted.
 
-Usage
-======================
+# Usage
+
 Use the plug-in by two steps.
 
-1.Load the source code
+## 1.Load the source code
 ------
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -23,7 +23,7 @@ Use the plug-in by two steps.
 
 Load the source code of jQuery, and this plugin.
 
-2.Execute
+## 2.Execute
 ------
 You can choose in two ways. One is to run as a jQuery method in the `<script>` element. Another one is set `data` attribute to, `<img>` element.
 
@@ -67,6 +67,6 @@ It is also possible to simplify the specification of options in the following wa
 If you want to don't write the javascript code, should add the `data-within` attribute to `<img>` element. When load the document, plugin will be run automatically.
 
 
-Attributes inheritance
+## Attributes inheritance
 ------
 When this plugin is run will be delete original `<img>` element. Then create the new `<span>` element. While `id` and `class` attributes inherit to new element from original element.
