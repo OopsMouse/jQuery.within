@@ -1,4 +1,4 @@
-jQuery.within
+# jQuery.within
 ======================
 Resize the image set by `<img>` element to within square area, while maintaining the aspect ratio.  
 Corresponding to the image of both portrait and landscape.
